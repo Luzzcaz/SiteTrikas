@@ -1,0 +1,39 @@
+body{
+    background-color: #111111;
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: red;
+    height: 100px;
+    display: flex;  
+    align-items: center;
+}
+.header h2{
+    font-size: 25px;
+    padding: 25px;
+}
+
+.header h3{
+    font-size:  20px;
+    padding: 25px;
+}
+.header a{
+    color: white;
+}
+.ft{
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 600px;
+    height: 600px;
+}
+
+.ft li{
+    text-align: left;
+    font-size: 50px;
+    padding: 100px;
+}

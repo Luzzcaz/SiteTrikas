@@ -6,27 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de imagens</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     
     <h1>Menu</h1>
-    <h2><a href="index.html" rel="prev">Página Inicial</a></h2>
-    <h2><a href="galeria.html">Album de Fotos do site</a></h2>
-    <h2><a href="Postagens.html" rel="next">Analises, publicações e memes sobre o São Paulo</a></h1>
-        <h3><a href="Mengazzo.html">Analise da derrota para o Flamengo(DNV SAPORRA N AGUENTO MAIS)</a></h3>
-       <h3><a href="Classificacao.html">Analise da Classificação para a final da Sula</a></h3>
-    <h2><a href="FaleComigo.html">Fale comigo</a></h2>
-        <h3><a href="SobreMim.html">Saiba mais sobre mim</a></h3>
-
-        <p><br></p>
-    <img src="Imagens/expulsoamem.jpg" alt="Jesus Valenzuela fazendo oq nem a torcida conseguiu fazer: Tirar essa tiriça do Igor Gomes de campo">
-    <img src="Imagens/desempenhoJandrei.jpg" alt="Todos tem goleiros, só nos não.">
-    <img src="Imagens/EU.jpg" alt="Comiken Leu">
-    <img src="Imagens/Eujoinha.jpg" alt="Gostoso que criou o site(Solteiro Gatinhas rsrsrs">
-    <img src="Imagens/rojegue.jpg" alt="Pai do Igor Fomes">
-    <img src="Imagens/Callerifudidasso.jpg" alt="Todos os torcedores do São Paulo ai">
-    <img src="Imagens/voleibol.jpg" alt="Arrascaeta jogando volei">
-    <img src="Imagens/paulistanotrikas.jpg" alt="o pai no Trikas">
+    <h2 class="sec"><a href="index.html" rel="prev">Página Inicial</a></h2>
+    <h2 class="atual"><a href="galeria.html">Galeria</a></h2>
+    <h2 class="sec"><a href="Postagens.html" rel="next">Publicações</a></h1>
+        <h3 class="sec"><a href="Mengazzo.html">Derrota para o Flamengo(DNV SAPORRA N AGUENTO MAIS)</a></h3>
+       <h3 class="sec"><a href="Classificacao.html">Classificação para a final da Sula</a></h3>
+    <h2 class="sec"><a href="FaleComigo.html">Fale comigo</a></h2>
+    <br>
+    <p>Hino do São Paulo</p>
+    <audio controls preload="metadata" loop>
+        <source src="midia/tentativamp3.mp3" type="audio/mp3">
+        <source src="midia/tentativaogg.ogg" type="audio/ogg">
+        <source src="midia/tentativewav.wav" type="audio/wav">
+        <p>3 tentativas e nenhuma funcionou, 3x0 pros audios kkjkjkkjkkkkk</p>
+    </audio>
+    <br>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/capitas700">
+        <source media="(max-width: 1050px)" srcset="Imagens/capitas">        
+        <img src="Imagens/capitas300.jpg" alt="Capitas do Trikas">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/SddsCrespo700">
+        <source media="(max-width: 1050px)" srcset="Imagens/SddsCrespo">        
+        <img src="Imagens/SddsCrespo300.jpg" alt="Crespo">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/expulsoamem700">
+        <source media="(max-width: 1050px)" srcset="Imagens/expulsoamem">        
+        <img src="Imagens/expulsoamem300.jpg" alt="Igor Fomes expulso">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/rojegue700">
+        <source media="(max-width: 1050px)" srcset="Imagens/Rojegue">        
+        <img src="Imagens/rojegue300.jpg" alt="Rojegue">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/penaltiporno700">
+        <source media="(max-width: 1050px)" srcset="Imagens/penaltiporno">        
+        <img src="Imagens/penaltiporno300.jpg" alt="Penalti porno do Galoppo">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/macaco700">
+        <source media="(max-width: 1050px)" srcset="Imagens/macaco">        
+        <img src="Imagens/macaco300.jpg" alt="Macaco São Paulino fds">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/EU700">
+        <source media="(max-width: 1050px)" srcset="Imagens/EU">        
+        <img src="Imagens/EU300.jpg" alt="eu apenas">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/morumbi700">
+        <source media="(max-width: 1050px)" srcset="Imagens/morumbi">        
+        <img src="Imagens/morumbi300.jpg" alt="Paulista no morumbi">
+    </picture>
 </body>
 </html>

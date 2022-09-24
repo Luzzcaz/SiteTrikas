@@ -6,19 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fala comigo</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <h1>Menu</h1>
-    <h2><a href="index.html" rel="prev">Página Inicial</a></h2>
-    <h2><a href="galeria.html">Album de Fotos do site</a></h2>
-    <h2><a href="Postagens.html">Analises, publicações e memes sobre o São Paulo</a></h1>
-        <h3><a href="Mengazzo.html">Analise da derrota para o Flamengo(DNV SAPORRA N AGUENTO MAIS)</a></h3>
-       <h3><a href="Classificacao.html">Analise da Classificação para a final da Sula</a></h3>
-    <h2><a href="FaleComigo.html">Fale comigo</a></h2>
-        <h3><a href="SobreMim.html" rel="next">Saiba mais sobre mim</a></h3>
-
+    <h2 class="sec"><a href="index.html" rel="prev">Página Inicial</a></h2>
+    <h2 class="sec"><a href="galeria.html">Galeria</a></h2>
+    <h2 class="sec"><a href="Postagens.html">Publicações</a></h1>
+        <h3 class="sec"><a href="Mengazzo.html">Derrota para o Flamengo(DNV SAPORRA N AGUENTO MAIS)</a></h3>
+       <h3 class="sec"><a href="Classificacao.html">Classificação para a final da Sula</a></h3>
+    <h2 class="atual"><a href="FaleComigo.html">Fale comigo</a></h2>
+    <br>
+    <p>Hino do São Paulo</p>
+    <audio controls preload="metadata" loop>
+        <source src="midia/tentativamp3.mp3" type="audio/mp3">
+        <source src="midia/tentativaogg.ogg" type="audio/ogg">
+        <source src="midia/tentativewav.wav" type="audio/wav">
+        <p>3 tentativas e nenhuma funcionou, 3x0 pros audios kkjkjkkjkkkkk</p>
+    </audio>
+    <br>
     <p><br>Então gente, ainda não tem um formulario para poder interagir com vcs, mas quando tiver, ele ficará aqui.</p>
-    <img src="Imagens/oPaieLindo.jpg" alt="Coletiva de imprensa">
+    <br>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/oPaieLindo700">
+        <source media="(max-width: 1050px)" srcset="Imagens/oPaieLindo">        
+        <img src="Imagens/oPaieLindo300.jpg" alt="Paulista no trikas">
+    </picture>
+    <p>Fique com um packzão de wallpaper do São Paulo Futebol clube pelo transtorno de não conseguir entrar em contato</p>
+    <a href="packSPFC.zip" download="PackSPFC" type="aplication/zip"><img
+        src="Imagens/DownloadSPFC.png" width="250px" height="250px"></a>
 </body>
 </html>
