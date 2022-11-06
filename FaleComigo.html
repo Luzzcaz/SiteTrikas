@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 style="background-color: #6B0F1A ;">Menu</h1>
-    <h2 style="background-color: #6B0F1A ;"><a style="color: #FFCB47"  href="index.html" rel="prev">Página Inicial</a></h2>
-    <h2 style="background-color: #6B0F1A ;"><a style="color: #FFCB47"  href="galeria.html">Galeria</a></h2>
-    <h2 style="background-color: #6B0F1A ;"><a style="color: #FFCB47"  href="Postagens.html">Publicações</a></h2>
-        <h3 style="background-color: #6B0F1A ;"><a style="color: #FFCB47"  href="Mengazzo.html">Derrota para o Flamengo(DNV SAPORRA N AGUENTO MAIS)</a></h3>
-       <h3 style="background-color: #6B0F1A ;"><a style="color: #FFCB47"  href="Classificacao.html">Classificação para a final da Sula</a></h3>
-       <h3 style="background-color: #6B0F1A ;" ><a style="color: #FFCB47"  href="DerrotaAtGO.html">Derrota para o Atletico GO na semi da sula</a></h3>
-       <h3 style="background-color: #6B0F1A ;"><a style="color: #FFCB47"  href="DerrotaMengao.html">derrota pro Flamengo na copa do Brasil</a></h3>
-       <h3  style="background-color: #6B0F1A ;"><a style="color: #FFCB47"  href="treinadores.html">Todos os treinadores do São Paulo durante 2017 até 2022</a></h3>
-       <h3  style="background-color: #6B0F1A ;"><a style="color: #FFCB47"  href="Camisas.html">Sobre a terceira camisa do São Paulo</a></h3>
-    <h2 style="background-color: #6B0F1A ;"><a style="color: #FFCB47"  href="FaleComigo.html">Fale comigo</a></h2>
+    <h1>Menu</h1>
+    <h2><a href="index.html" rel="prev">Página Inicial</a></h2>
+    <h2><a href="galeria.html">Galeria</a></h2>
+    <h2><a href="Postagens.html">Publicações</a></h2>
+        <h3><a href="Mengazzo.html">Derrota para o Flamengo(DNV SAPORRA N AGUENTO MAIS)</a></h3>
+       <h3><a href="Classificacao.html">Classificação para a final da Sula</a></h3>
+       <h3><a href="DerrotaAtGO.html">Derrota para o Atletico GO na semi da sula</a></h3>
+       <h3><a href="DerrotaMengao.html">derrota pro Flamengo na copa do Brasil</a></h3>
+       <h3><a href="treinadores.html">Todos os treinadores do São Paulo durante 2017 até 2022</a></h3>
+       <h3><a href="Camisas.html">Sobre a terceira camisa do São Paulo</a></h3>
+    <h2><a href="FaleComigo.html">Fale comigo</a></h2>
     <br>
     <p>Hino do São Paulo</p>
     <audio controls preload="metadata" loop>
@@ -29,15 +29,63 @@
         <p>3 tentativas e nenhuma funcionou, 3x0 pros audios kkjkjkkjkkkkk</p>
     </audio>
     <br>
-    <p><br>Então gente, ainda não tem um formulario para poder interagir com vcs, mas quando tiver, ele ficará aqui.</p>
+    <p>Finalmente aprendi a fazer formulario</p><br>
+    <form>
+        <fieldset>
+            <legend>CADASTRO</legend>
+            <p><label for="iduser">Usuario</label><input type="text" name="user" id="iduser" size="35" placeholder="IgorGomes26"></p> 
+            <p><label for="nEmail">E-Mail</label><input type="email" id="nEmail" name="idEmail" placeholder="NaoSeiOq@email.com"></p>
+            <p><label for="nSenha">Senha</label><input type="password" id="nSenha" name="idSenha"></p>
+            <p><label for="idDDN">Data de Nascimento: </label><input type="date" name="nDDN" id="idDDN"></p>
+        </fieldset>
+        <br>
+        <h3>E O SÃO PAULO HEIN</h3>
+        <br>
+        <fieldset>
+            <legend>Para você, O São Paulo fez uma temporada</legend>
+            <input type="radio" name="Temp" id="idTempMB"><label for="idTempMB">Muito boa</label>
+            <br>
+            <input type="radio" name="Temp" id="idTempB"><label for="idTempB">Boa</label>
+            <br>
+            <input type="radio" name="Temp" id="idTempM"><label for="idTempM">Mediana</label>
+            <br>
+            <input type="radio" name="Temp" id="idTempR"><label for="idTempMB">Ruim</label>
+            <br>
+            <input type="radio" name="Temp" id="idTempMR"><label for="idTempMB">Muito ruim</label>
+            <br>
+            <label>O quão confiante você esta no trabalho do Rogerio Ceni</label><input type="range" min="0" max="10">
+            <br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>O QUE MAIS ATRAPALHOU O SÃO PAULO NESTA TEMPORADA, NA SUA OPINIÃO?</legend>
+            <select name="O QUE MAIS ATRAPALHOUO SÃO PAULO NESTA TEMPORADA, NA SUA OPINIÃO?">
+                <option value="Diretoria">Diretoria</option>
+                <option value="Tecnico">Tecnico</option>
+                <option value="Jogadores">Jogadores</option>
+                <option value="Outro">Outro</option>
+              </select>
+        </fieldset>
+        <fieldset>
+            <legend>ESCREVA SOBRE OQ ACHOU DO SÃO PAULO NA TEMPORADA</legend>
+                <label></label><br><textarea type="text" cols="35" rows="8" placeholder="Na minha opinião, Rogerio não é tecnico para o São Paulo e os jogadores são um bando de pipoqueiros..."></textarea><br>
+              </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>E PARA FINALIZAR</legend>
+            <label>Qual foi o melhor ano da historia do São Paulo na sua opinião?</label><input type="number" min="1930" max="2022">
+        </fieldset>
+    </form>
+    <h3>Já que estamos falando dos tempos de gloria do São Paulo Futebol Clube, fique com esse packzão de wallpaper historicos do São Paulo</h3>
     <br>
+    <a href="packSPFC.zip" download="PackSPFC" type="aplication/zip"><img
+        src="Imagens/DownloadSPFC.png" width="250px" height="250px"></a>
+        <br>
     <picture>
         <source media="(max-width: 750px)" srcset="imagens/oPaieLindo300.jpg">
         <source media="(max-width: 1050px)" srcset="Imagens/oPaieLindo700.jpg">        
         <img src="Imagens/oPaieLindo.jpg" alt="Paulista no trikas">
     </picture>
-    <p>Fique com um packzão de wallpaper do São Paulo Futebol clube pelo transtorno de não conseguir entrar em contato</p>
-    <a href="packSPFC.zip" download="PackSPFC" type="aplication/zip"><img
-        src="Imagens/DownloadSPFC.png" width="250px" height="250px"></a>
+   
 </body>
 </html>
