@@ -33,3 +33,57 @@ h3 {
 a {
     color: #F7F0F0;
 }
+:root{
+    --cor1: #171D1C;
+    --cor2: #F7F0F0;
+    --cor3: #6B0F1A;
+    --cor4: #F72C25;
+    --cor5: #FFCB47;
+    --cor6: #ffffff;
+    --cor7: #000000;
+}
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+nav {
+
+    width: 1280px;
+    border: 11px groove var(--cor1);
+    margin: auto;
+    padding: 20px;
+    background-color: var(--cor1);
+    border-radius: 2.5%;
+
+}
+
+nav > a{
+    margin: 120px;
+    color: var(--cor4);
+    text-decoration: solid;
+}
+
+nav > a:hover{
+    background-color: var(--cor7);
+    padding: 1px;
+    transition-property: inherit;
+    transition-duration: 1.5s;
+    border-radius: 2%;
+
+}
+
+main{
+    border: 2px solid var(--);
+    width: 1250px;
+    margin: auto;
+    padding: 1px 4px 4px 4px;
+    box-shadow: var(--cor7) 15px 10px 20px 17px ;
+    margin-bottom: 50px;
+    
+}
